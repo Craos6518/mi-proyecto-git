@@ -34,5 +34,19 @@ def verificar_markdown():
     return f"El entorno Markdown está: {estado}"
 
 print(verificar_markdown())
-
 ```
+
+---
+
+## Guía Rápida de Comandos Git
+
+A continuación se explica la función de los comandos principales de Git utilizando términos sencillos del día a día:
+
+- **`git init`**: Inicializa el repositorio de manera local
+- **`git add`**: Pone los archivos que modificaste en una "bandeja de salida" o lista de espera. Prepara todo lo que quieres guardar en el siguiente paso.
+- **`git commit`**: Toma una "foto" del estado actual de tus archivos preparados y le agrega una nota pequeña explicando qué cambios hiciste.
+- **`git push`**: Sube las "fotos" guardadas desde tu computadora hacia un servidor en internet (como GitHub) para que tengas una copia de respaldo en la nube.
+- **`git status`**: Funciona como un tablero informativo que te dice en qué estás trabajando, qué archivos modificaste y cuáles no has guardado aún.
+- **`git diff`**: Compara tus archivos actuales con la última "foto" guardada y te muestra línea por línea qué agregaste, borraste o cambiaste.
+- **`git log`**: Es el álbum de recuerdos o historial completo que muestra todas las "fotos" (commits) que has tomado desde el inicio del proyecto.
+- **`git restore`** _(Deshacer cambios)_: Funciona como un botón de "deshacer" (Ctrl+Z). Borra los cambios que hiciste recientemente en un archivo y lo regresa a como estaba en la última foto guardada.
